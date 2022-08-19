@@ -11,13 +11,16 @@ Now it's time to create your own NFT contract!
 
 ### Tasks
 
-- `sip-009-trait.clar` has been created for you and the `SIP-009` standard has been added as a comment.
-  - define the trait correctly
+- `sip-009-trait.clar` has been created for you and the `SIP-009` standard has been added as a comment.<br><br>
+  - define the trait correctly<br><br>
 
-- `my-nft.clar` has been created for you and some of the code has been written.
-  - implement the trait correctly
-  - define your non-fungible-token (you can name it whatever you'd like)
-  - write `get-last-token-id` function. *Hint: This function just grabs the value of `last-token-id` which has been defined for you.*
-  - complete `get-owner` function. *Hint: This function just grabs the owner of a specified NFT. (NFTs have ids)*
-  - write `transfer` function. *Hint: This function transfers an asset between a sender and a receiver.*
-  - complete `mint` function. *Hint: Think about what needs to happen for an NFT to be minted. Is there payment involved? Are there any built-in functions that may be useful?*
+- `my-nft.clar` has been created for you and some of the code has been written.<br><br>
+  - implement the trait correctly<br><br>
+  - define your non-fungible-token (you can name it whatever you'd like)<br><br>
+  - write `get-last-token-id` function.<br>
+  *Hint: This function just grabs the value of `last-token-id` which has been defined for you.*<br><br>
+  - complete `get-owner` function. *Hint: This function just grabs the owner of a specified NFT. (NFTs have ids)*<br><br>
+  - write `transfer` function.<br>
+  *Hint: This function transfers an asset between a sender and a receiver.*<br><br>
+  - complete `mint` function.<br>
+  *Hint: Think about what needs to happen for an NFT to be minted. Is there payment involved? Are there any built-in functions that may be useful?*
