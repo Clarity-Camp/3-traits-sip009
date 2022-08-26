@@ -46,3 +46,8 @@ As a user, I should be able to transfer an NFT that I own to another account.
  As a user, I should be able to transfer STX in exhange for a newly minted NFT.
  - [ ] Complete the `mint` function.<br>
  *Hint: Think about what needs to happen for an NFT to be minted. Are there any built-in functions that may be useful?*
+ 
+ ### Challenge! :muscle:
+
+- [ ] Write a `mint-five` function.<br>
+*Hint: Clarity requires **explicit** instructions.*
