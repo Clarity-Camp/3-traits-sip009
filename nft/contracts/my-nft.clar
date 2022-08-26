@@ -3,14 +3,16 @@
 
 ;; IMPLEMENT TRAIT HERE
 
-(define-constant MINT_PRICE u100)
-(define-constant WALLET_1 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM)
-
 ;; DEFINE NON-FUNGIBLE-TOKEN HERE
+
+(define-constant MINT_PRICE u1000000)
+(define-constant CONTRACT_OWNER tx-sender)
+(define-constant ERR_OWNER_ONLY (err u100))
+(define-constant ERR_NOT_TOKEN_OWNER (err u101))
 
 (define-data-var last-token-id uint u0)
 
-;; WRITE GET-LAST-TOKEN-ID FUNCTION HERE
+;; WRITE get-last-token-id FUNCTION HERE
 
 (define-read-only (get-token-uri (id uint)) 
   (ok none)
@@ -20,7 +22,7 @@
   ;; COMPLETE THIS FUNCTION HERE
 )
 
-;; WRITE TRANSFER FUNCTION HERE
+;; WRITE transfer FUNCTION HERE
 
 (define-public (mint (recipient principal))
   (let 
@@ -32,3 +34,5 @@
     (ok id)
   )
 )
+
+;; WRITE mint-five FUNCTION HERE
