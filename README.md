@@ -49,5 +49,6 @@ As a user, I should be able to transfer an NFT that I own to another account.
  
  ### Challenge! :muscle:
 
+As a user, I should be able to mint five NFTs in a single transcation.
 - [ ] Write a `mint-five` function.<br>
 *Hint: Clarity requires **explicit** instructions.*
